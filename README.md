@@ -12,15 +12,15 @@ Tijekom inicijalne analize ulaznih `DataFrame` objekata detektirana je visoka pr
 U nastavku je prikazan središnji dokazni materijal provedene analize s grafičkim prikazima i interpretacijom.
 
 ### 1. Korelacija geoloških parametara
-![Graf korelacije parametara](graf_1.png)
+![Graf korelacije parametara](assets/graf_1.png)
 *Interpretacija:* Prikaz korelacije pokazuje snažnu povezanost između detektirane razine vlage i specifičnog mineralnog sastava na zadanim koordinatama.
 
 ### 2. Toplinska karta i rasprostranjenost metana
-![Toplinska karta metana](graf_4_mapa_metana.png)
+![Toplinska karta metana](assets/graf_4_mapa_metana.png)
 *Interpretacija:* Toplinska karta jasno ukazuje na visoku koncentraciju metana u sjeverozapadnom kvadrantu kratera, što sugerira potrebu za detaljnijim ispitivanjem tog sektora.
 
 ### 3. Satelitska mapa (Extent mapiranje)
-![Extent satelitska mapa](graf_5.png)
+![Extent satelitska mapa](assets/graf_5.png)
 *Tehnički koncept:* Za završnu satelitsku mapu primijenjen je koncept *extent* mapiranja granica. Pomoću graničnih (bounding box) koordinata (sjever, jug, istok, zapad), raspršeni podaci sa senzora precizno su i kontekstualno pozicionirani na stvarnu pozadinsku satelitsku snimku pomoću stvarnih GPS koordinata. Ovo je ključno za pouzdanu orijentaciju terenskog robota.
 
 ## D. Komunikacijski protokol (JSON Uplink)
