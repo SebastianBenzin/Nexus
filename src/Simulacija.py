@@ -94,7 +94,9 @@ for index, redak in kandidati.iterrows():
     }
     nalozi_lista.append(nalog)
 
-"""
+
+
+url = https://webhook.site/03f33f00-c3a0-4a66-8b06-63f1af147efa
 paket = {
     "misija": "Nexus",
     "kandidati_count": len(nalozi_lista),
@@ -102,12 +104,12 @@ paket = {
 }
 
 
-response = requests.post(url_webhook, json=paket)
+odgovor = requests.post(url, json=paket)
 
-if response.status_code == 200:
+if odgovor.status_code == 200:
     print("--- MISIJA USPJEŠNO IZVRŠENA ---")
-    print(f"Statusni kod: {response.status_code}")
+    print(f"Statusni kod: {odgovor.status_code}")
     print(f"Broj poslanih kandidata: {len(nalozi_lista)}")
 else:
-    print(f"Došlo je do problema. Status: {response.status_code}")
-"""
+    print(f"Došlo je do problema. Status: {odgovor.status_code}")
+
