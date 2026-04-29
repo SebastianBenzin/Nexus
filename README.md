@@ -39,8 +39,7 @@ Umjesto ručnog upisivanja , napisao sam petlju koja prolazi kroz očišćene po
   ]
 }
 ```
-
-E. Inženjerski dnevnik (Troubleshooting Log)
+## E. Inženjerski dnevnik (Troubleshooting Log)
 Dva glavna problema s kojima sam se susreo tijekom koda:
 
 Krivi separator (Greška kod spajanja tablica): Pandas nije htio učitati mars_uzorci.csv i izbacio je ParserError. Problem je bio što ta datoteka koristi točku sa zarezom (;) umjesto običnog zareza. Riješeno dodavanjem argumenta sep=';' u pd.read_csv().
