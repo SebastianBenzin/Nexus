@@ -1,5 +1,5 @@
 # Biblioteke :
-1. '''Pandas'''
-2. '''matplotlib'''
-3. '''seaborn'''
-4. '''requests'''
+1. "Pandas"
+2. "matplotlib"
+3. "seaborn"
+4. "requests"
