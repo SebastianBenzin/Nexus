@@ -1,4 +1,4 @@
-# Biblioteke :
+Biblioteke :
 1. "Pandas"
 2. "matplotlib"
 3. "seaborn"
