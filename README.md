@@ -44,6 +44,10 @@ Dva glavna problema s kojima sam se susreo tijekom koda:
 
 Krivi separator (Greška kod spajanja tablica): Pandas nije htio učitati mars_uzorci.csv i izbacio je ParserError. Problem je bio što ta datoteka koristi točku sa zarezom (;) umjesto običnog zareza. Riješeno dodavanjem argumenta sep=';' u pd.read_csv().
 
+
 JSON serijalizacija (Rušenje skripte): Skripta je pucala kod izrade JSON-a jer standardni modul ne prepoznaje NumPy int64 tipove podataka iz tablice. Riješio sam to prebacivanjem stupaca u obični Python broj preko .astype(int).
+
+## Analiza temp
+- **Prosječna temperatura na lokacijama kandidata:** [-41.32] °C
 
 Autor-Sebastian Benvin
